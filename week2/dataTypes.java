@@ -27,7 +27,7 @@ public class dataTypes {
             int area = length * breadth; 
             System.out.println(area+perimeter);
 // task 4
-        int output = variable > 18 ? 1:-1;
+        boolean output = variable > 18 ? true:false;
         System.out.println(output);
         
     }
