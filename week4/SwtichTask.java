@@ -1,3 +1,5 @@
+package week4;
+
 import java.util.Scanner;
 
 public class SwtichTask {
@@ -32,6 +34,7 @@ public class SwtichTask {
                 System.out.println("Invalid Day!");
                 break;
         }
+        sc.close();
 
     }
 

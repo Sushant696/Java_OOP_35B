@@ -24,5 +24,6 @@ public class whileLoop {
             }
             System.out.println(" ");
         }
+        scanner.close();
     }
 }

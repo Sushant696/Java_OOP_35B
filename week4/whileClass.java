@@ -18,6 +18,7 @@ public class whileClass {
             }
 
         }
+        scanner.close();
 
     }
 }
