@@ -4,7 +4,14 @@ public class myArrays {
 
    public static int ArrayFinder(String[] array, String find) {
 
-      return 1;
+      for (int i = 0; i < array.length; i++) {
+         if (array[i] == find) {
+            return i;
+
+         }
+
+      }
+      return -1;
    }
 
    public static void main(String[] args) {
@@ -72,5 +79,7 @@ public class myArrays {
       // else return -1
       // print the returned index value
 
+      int index = ArrayFinder(newArr, "Jhon");
+      System.out.println(index);
    }
 }
