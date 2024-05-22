@@ -1,6 +1,4 @@
-package arrays;
-
-public class multiDimArrays {
+public class MultiDimArrays {
     public static void main(String[] args) {
         int[][] twoDimArray = new int[3][5]; // Initialization
         twoDimArray[0][0] = 10;

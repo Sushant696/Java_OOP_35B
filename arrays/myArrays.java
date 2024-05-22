@@ -82,4 +82,9 @@ public class myArrays {
       int index = ArrayFinder(newArr, "Jhon");
       System.out.println(index);
    }
+
+   public static int size() {
+      // TODO Auto-generated method stub
+      throw new UnsupportedOperationException("Unimplemented method 'size'");
+   }
 }
