@@ -1,0 +1,6 @@
+Notes on variables types:
+
+Static variable
+Instance variable
+local variable 
+and this reference
