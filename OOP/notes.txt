@@ -4,3 +4,6 @@ Static variable
 Instance variable
 local variable 
 and this reference
+
+
+Static variable: 

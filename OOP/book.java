@@ -7,7 +7,7 @@ public class book {
 
     // the properties or the ones that object instance will have..
     public book(String title, String author) {
-        this.title = title; // telling the instance declared is equall to what you just passed
+        this.title = title; // telling the instance declared is what you just passed
         this.author = author;
         numberOfBooksObject++;
     }
@@ -27,7 +27,7 @@ public class book {
     }
 }
 
-// Problem 1: Counting Objects
+// Problem 1: Counting Objects  
 // Create a class Book that keeps track of the number of book objects created.
 // Each book should have a title and an author.
 
