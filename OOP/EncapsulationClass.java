@@ -41,6 +41,7 @@ class encapsulation {
 
 /// encapsulation encloses/bundles similar properties, attributes, and
 /// functions/methods in a single class
+
 class Laptop {
     String brand;
     String name;
@@ -106,3 +107,20 @@ class Laptop {
         System.out.println();
     }
 }
+
+// task
+// make an constructer of laptop that takes brand and name
+// makea setter and getter for remaining private attributes ram storage
+// make a function upgrade() takes, 3 number for ram and storage
+// and add them to current value of ram and storage
+// make a function inflation() takes 1 number price
+// and add to the current value of price
+// make 3 object fill the attribute and call upgrade and inflation
+
+// print the following
+// Brand : apple
+// Name : apple aiir m3
+// Price : 150000
+// Ram : ram 10gb
+// storage : 256 gb
+// year 2022

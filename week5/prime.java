@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class prime {
 
     public static void primeNumbers(int range) {
-        int flag = 0;
+        // int flag = 0;
         for (int i = 2; i < range; i++) {
             for (int j = 2; j < i; j++) {
                 if (i % j == 0) {
@@ -26,6 +26,7 @@ public class prime {
         System.out.println("Enter a range for finding prime number: ");
         int primeNumberRange = scanner.nextInt();
         primeNumbers(primeNumberRange);
+        scanner.close();
 
     }
 }

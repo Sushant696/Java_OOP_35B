@@ -1,15 +1,20 @@
 package OOP;
 
 public class BankingSystem {
+
     public static void main(String[] args) {
         BankAccount myAccount = new BankAccount("sushant", 898989898, 13);
         myAccount.withdraw(2214);
+        myAccount.deposits(1000);
+        myAccount.viewAccountBalance();
+        myAccount.getAccNumber();
 
         System.out.println(myAccount.viewAccountBalance());
     }
 }
 
 class BankAccount {
+
     private int accNumber;
     private String name;
     private int bankBalance;
@@ -21,19 +26,27 @@ class BankAccount {
     }
 
     public int getAccNumber() {
+        System.out.println("Your account number is : " + accNumber
+        );
         return accNumber;
     }
 
-    public void setAccNumber(int accNumber) {
-        this.accNumber = accNumber;
+    public String getName() {
+        return name;
     }
 
     public int viewAccountBalance() {
+        System.out.println("Your current balance is : " + bankBalance);
         return this.bankBalance;
     }
 
     public void setBankBalance(int bankBalance) {
         this.bankBalance = bankBalance;
+    }
+
+    public void deposits(int depositAmt) {
+        this.bankBalance += depositAmt;
+        System.out.println("Deposited your current balance is : " + bankBalance);
     }
 
     public void withdraw(int withdrawAmt) {
@@ -53,7 +66,6 @@ class BankAccount {
 // Implement the BankAccount class with encapsulation principles in mind.
 // Include private instance variables for the
 // account number, account holder name, and account balance.
-
 // Provide public methods to allow clients to deposit and withdraw funds,
 // as well as access the account balance.
 // Ensure that the account balance cannot be accessed or modified directly.
