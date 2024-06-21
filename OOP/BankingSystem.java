@@ -26,8 +26,7 @@ class BankAccount {
     }
 
     public int getAccNumber() {
-        System.out.println("Your account number is : " + accNumber
-        );
+        System.out.println("Your account number is : " + accNumber);
         return accNumber;
     }
 
