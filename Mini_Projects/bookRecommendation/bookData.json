@@ -1,0 +1,73 @@
+[
+    {
+      "title": "The Happiness Project",
+      "author": "Gretchen Rubin",
+      "category": "Self-Help",
+      "price": 15.99,
+      "available": true
+    },
+    {
+      "title": "Atomic Habits",
+      "author": "James Clear",
+      "category": "Self-Help",
+      "price": 14.99,
+      "available": true
+    },
+    {
+      "title": "Mindset: The New Psychology of Success",
+      "author": "Carol Dweck",
+      "category": "Self-Help",
+      "price": 12.50,
+      "available": false
+    },
+    {
+      "title": "Daring Greatly: How the Courage to Be Vulnerable Transforms the Way We Live, Love, Parent, and Lead",
+      "author": "Brené Brown",
+      "category": "Self-Help",
+      "price": 16.95,
+      "available": true
+    },
+    {
+      "title": "The Power of Now: A Guide to Spiritual Enlightenment",
+      "author": "Eckhart Tolle",
+      "category": "Self-Help",
+      "price": 10.99,
+      "available": true
+    },
+    {
+      "title": "You Are a Badass: How to Stop Doubting Your Greatness and Start Living an Awesome Life",
+      "author": "Jen Sincero",
+      "category": "Self-Help",
+      "price": 9.99,
+      "available": false
+    },
+    {
+      "title": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "category": "Fiction",
+      "price": 7.99,
+      "available": true
+    },
+    {
+      "title": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "category": "Fiction",
+      "price": 8.50,
+      "available": true
+    },
+    {
+      "title": "The Lord of the Rings",
+      "author": "J.R.R. Tolkien",
+      "category": "Fiction",
+      "price": 24.99,
+      "available": false
+    },
+    {
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "author": "Douglas Adams",
+      "category": "Fiction",
+      "price": 11.99,
+      "available": true
+    }
+  ]
+  
