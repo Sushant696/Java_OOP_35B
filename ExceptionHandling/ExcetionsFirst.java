@@ -1,5 +1,5 @@
 
-public class Excetions {
+public class ExcetionsFirst {
     public static void main(String[] args) {
         System.out.println("Program start ");
         try {
