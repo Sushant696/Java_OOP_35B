@@ -1,3 +1,5 @@
+package week6.Tasks;
+
 public class MultiDimArrays {
     public static void main(String[] args) {
         int[][] twoDimArray = new int[3][5]; // Initialization

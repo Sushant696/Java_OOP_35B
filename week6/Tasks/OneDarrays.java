@@ -1,3 +1,4 @@
+package week6.Tasks;
 
 public class OneDarrays {
     public static void main(String[] args) {
